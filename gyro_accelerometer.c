@@ -44,7 +44,10 @@ int main(int argc, char *argv[])
 	float rate_gyr_y = 0.0;   // [deg/s]
 	float rate_gyr_x = 0.0;   // [deg/s]
 	float rate_gyr_z = 0.0;   // [deg/s]
-
+	float gyroXangle;
+	float gyroYangle;
+	float gyroZangle;
+	float value_accelerometer_x, value_accelerometer_y, value_accelerometer_z;
 	int  accRaw[3];
 	int  gyrRaw[3];
 
