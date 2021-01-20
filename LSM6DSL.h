@@ -1,4 +1,4 @@
-#define LSM6DSL_ADDRESS            0x6A
+#define LSM6DSL_ADDRESS            0x6B
 
 #define LSM6DSL_WHO_AM_I           0x0F
 #define LSM6DSL_RAM_ACCESS         0x01
